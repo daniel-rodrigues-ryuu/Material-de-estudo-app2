@@ -1,0 +1,67 @@
+void main() {
+  
+  for (int i = 1; i <= 17; i++) {
+    
+  // for =  inicia o loop 
+  // int i = 1 -> variavel inteira iniciada em 1
+  // i <= 17 -> so saira do loop quando i for maior que 17
+  // i++ ->  soma i + 1 ate o fim do loop = 2, 3, 4, 5, 6
+  /*
+   * 😂😊😉😎😁😘😒😍🤣😂😢😜😃😆🤔🤢
+   * */
+    
+  switch (i) {
+    case 1:
+      print("😂");
+      break;
+    case 2:
+      print("😊");
+      break;
+    case 3:
+      print("😉");
+      break;
+    case 4: 
+      print("😎");
+      break;
+    case 5:
+      print("😁");
+      break;
+    case 6:
+      print("😘");
+      break;
+    case 7:
+      print("😒");
+      break;
+    case 8:
+      print("😍");
+      break;
+    case 9:
+      print("🤣");
+      break;
+    case 10:
+      print("😂");
+      break;
+    case 11:
+      print("😢");
+      break;
+    case 12:
+      print("😜");
+      break;
+    case 13:
+      print("😃");
+      break;
+    case 14:
+      print("😆");
+      break;
+    case 15:
+      print("🤔");
+      break;
+    case 16:
+      print("🤢");
+      break;
+      
+    default:
+      print("made by @daniel rodrigues");
+    }//fim do switch 
+  }//fim do for
+}//fim do main

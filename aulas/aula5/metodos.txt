@@ -1,0 +1,47 @@
+
+
+void main() {
+  //calcular valores void
+  calcularValoresAlt();
+  
+  //calcular valores num
+  num resultado = calcularValores();
+  print("Resultado: $resultado");
+  
+  //booleano
+  bool lsValor = verificarSeTemValor();
+  print(lsValor);
+  
+}//fecha o main
+
+//metodo para somar 2 valores (com retorno)
+
+//retorna um numero
+num calcularValores () {
+  
+  double valor1 = 10.5;
+  double valor2 = 12;
+  
+  double resultado  = valor1 + valor2;
+  
+  //print("Resultado: $resultado");
+  return resultado;
+  
+}
+
+// sem rtorno
+void calcularValoresAlt () {
+  
+  double valor1 = 10.5;
+  double valor2 = 12;
+  
+  double resultado  = valor1 + valor2;
+  
+ print("Resultado: $resultado");
+  
+}
+
+//retorna verdadeiro ou falso 
+bool verificarSeTemValor(){
+  return true;
+}

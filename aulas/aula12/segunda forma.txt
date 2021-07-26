@@ -1,0 +1,39 @@
+void main() {
+  num n1 = 5;
+  num n2 = 2;
+  String operacao = "Multiplicar";
+
+  Calculadora calc = new Calculadora();
+  num resultado = calc.calcular(n1, n2, operacao);
+  print("${resultado.toStringAsFixed(2)}");
+}
+/*         Classe ******                    */
+class Calculadora {
+  
+  num calcular(num valor1, num valor2, String operacao) {
+    
+    num resultado = 0;
+    
+    switch (operacao) {
+      case "Somar":
+        resultado = valor1 + valor2;
+        break;
+
+      case "Subtrair":
+        resultado = valor1 - valor2;
+        break;
+
+      case "Multiplicar":
+        resultado = valor1 * valor2;
+        break;
+
+      case "Dividir":
+        resultado = valor1 / valor2;
+        break;
+
+      default:
+        print("opção invalida");
+    }//fim do switch
+    return resultado;
+  }//
+}//fim da class

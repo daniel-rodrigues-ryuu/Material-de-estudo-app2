@@ -1,0 +1,87 @@
+void main() {
+  
+  for (int i = 1; i <= 23; i++) {
+    
+  // for =  inicia o loop 
+  // int i = 1 -> variavel inteira iniciada em 1
+  // i <= 23 -> so saira do loop quando i for maior que 23 -> default
+  // i++ ->  soma i + 1 ate o fim do loop = 2, 3, 4, 5, 6
+  /*
+   * 😂😊😉😎😁😘😒😍🤣😂😢😜😃😆🤔🤢
+   * 
+   *(T_T)(⊙_⊙;)
+   * */
+    
+  switch (i) {
+    case 1:
+      print("(❁´◡`❁)");
+      break;
+    case 2:
+      print("(●'◡'●)");
+      break;
+    case 3:
+      print("╰(*°▽°*)╯");
+      break;
+    case 4: 
+      print("(≧▽≦)");
+      break;
+    case 5:
+      print("(^///^)");
+      break;
+    case 6:
+      print(":-)");
+      break;
+    case 7:
+      print("^_^");
+      break;
+    case 8:
+      print("ᓚᘏᗢ");
+      break;
+    case 9:
+      print("ಥ_ಥ");
+      break;
+    case 10:
+      print("ಠ_ಠ");
+      break;
+    case 11:
+      print("(╯°□°）╯");
+      break;
+    case 12:
+      print("( ´･･)ﾉ");
+      break;
+    case 13:
+      print("(._.`)");
+      break;
+    case 14:
+      print("༼ つ ◕_◕ ༽つ");
+      break;
+    case 15:
+      print("(ˉ﹃ˉ)");
+      break;
+    case 16:
+      print("(•_•)");
+      break;
+    case 17:
+      print("(⌐■_■)");
+      break;
+    case 18:
+      print("(¬‿¬)");
+      break;
+    case 19:
+      print("(¬_¬ )");
+      break;
+    case 20:
+      print("¯\_(ツ)_/¯");
+      break;
+    case 21:
+      print("(T_T)");
+      break;
+    case 22:
+      print("(⊙_⊙;)");
+      break;
+      
+    default:
+      print("made by @daniel rodrigues");
+    }//fim do switch 
+  }//fim do for
+}//fim do main

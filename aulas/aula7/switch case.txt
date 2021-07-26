@@ -1,0 +1,30 @@
+void main() {
+  
+ int regiao  = 1;
+  
+  switch (regiao) {
+    case 1:
+      print("Sul");
+      break;
+      
+    case 2:
+      print("Sudeste");
+      break;
+      
+    case 3:
+      print("Centro oeste");
+      break;
+      
+    case 4: 
+      print("Norte");
+      break;
+      
+    case 5:
+      print("Nordeste");
+      break;
+      
+    default:
+      print("informe uma das opções: ");
+  }
+  
+}

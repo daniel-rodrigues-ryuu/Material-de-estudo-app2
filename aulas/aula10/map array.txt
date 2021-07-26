@@ -1,0 +1,64 @@
+void main() {
+  
+  //Cria um Map (Vazio)
+  
+  var carros = [
+   {
+    "Honda": "Civic",
+    "motor": "V8",
+    "Marchas": 6,
+    "cor": "azul"
+  },
+  {
+    "Ford": "Mustang",
+    "motor": "V8",
+    "Marchas": 9,
+    "cor": "Verde"
+  }
+               
+ ];
+  
+  //busca o objeto todo
+  print(carros[1]);
+  
+  //caso especifico
+  print(carros[1]["motor"]);
+  /*var m = {"Honda": "Civic"};
+  
+  m["Fiat"] = "Palio";
+    print(m);*/
+}
+
+================================================================
+
+void main() {
+  var carros = [
+    {
+      "Honda": "Civic",
+      "motor": 2.0,
+      "marchas": 6,
+      "cor": "prata"
+    },
+    
+    {
+      "Fiat": "Palio",
+      "motor": 1.4,
+      "marchas": 5,
+      "cor": "branca"
+    },
+    
+    {
+      "Ford": "Mustang",
+      "motor": 2.4,
+      "marchas": 6,
+      "cor": "azul"
+    }
+  ];
+  
+  // Criando um Map
+  /*var m = { "Honda": "Civic"};
+  
+  m["Fiat"] = "Palio";*/
+  
+  print(carros[2]["motor"]);
+}

@@ -1,0 +1,479 @@
+EXERCICIO 01
+
+void main() {
+  
+  int numero = 0;
+  
+  if (numero == 0) {
+    print("Zero");
+    
+  } else if (numero % 2 == 0) {
+    print("Par");
+    
+  } else {
+    print("Impar");
+    
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 2.1
+
+void main() {
+  
+  int n1 = 6;
+  int n2 = 6;
+  
+  if (n1 > n2) {
+    print("Valor 1 ($n1) e maior que ($n2)");
+    
+  } else if (n2 > n1) {
+    print("Valor 2 ($n2) e maior que ($n1)");
+    
+  } else {
+    print("São Iguais");
+    
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 2.2
+
+void main() {
+  
+  int n1 = 9;
+  int n2 = 9;
+  int n3 = 9;
+  
+  if (n1 > n2 && n1 > n3) {
+    print("Valor 1 ($n1) e maior que ($n2) e ($n3)");
+    
+  } else if (n2 > n1 && n2 > n3) {
+    print("Valor 2 ($n2) e maior que ($n1) e ($n3)");
+    
+  } else if (n3 > n1 && n3 > n2) {
+    print("Valor 3 ($n3) e maior que ($n1) e ($n2)");
+  } else {
+    print("São Iguais ($n1), ($n2), ($n3)");
+    
+  }
+}
+
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 2.3
+
+void main() {
+
+  int n1 = 7;
+  int n2 = 7;
+  int n3 = 7;
+  
+  if (n1 > n2 && n1 > n3) {
+    print("Maior ($n1)");
+    
+    if (n2 > n3) {
+       print("Menor Valor ($n3)");
+      
+    } else if (n3 > n2) {
+      print("Menor Valor ($n2)");
+      
+    } else {
+      print("São Iguais ($n3) e ($n2)");
+      
+    }
+    
+  } else if (n2 > n1 && n2 > n3) {
+    print("Maior ($n2)");
+    
+    if (n1 > n3) {
+       print("Menor Valor ($n3)");
+      
+    } else if (n3 > n1) {
+      print("Menor Valor ($n1)");
+      
+    } else {
+      print("São Iguais ($n3) e ($n1)");
+      
+    }
+    
+  } else if (n3 > n1 && n3 > n2) {
+    print("Maior ($n3)");
+    
+    if (n2 > n1) {
+       print("Menor Valor ($n1)");
+      
+    } else if (n1 > n2) {
+      print("Menor Valor ($n2)");
+      
+    } else {
+      print("São Iguais ($n2) e ($n1)");
+      
+    }
+    
+  } else {
+    print("São Iguais ($n1), ($n2), ($n3)");
+    
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 2.4
+
+void main() {
+  
+  int n1 = 12;
+  int n2 = 13;
+  int n3 = 14;
+  
+  if (n1 > n2 && n1 > n3) {
+    print("Maior ($n1)");
+    
+    if (n2 > n3) {
+       print("Valor do meio ($n2) \nMenor Valor ($n3)");
+      
+    } else if (n3 > n2) {
+      print("Valor do meio ($n3) \nMenor Valor ($n2)");
+      
+    } else {
+      print("São Iguais ($n3) e ($n2)");
+      
+    }
+    
+  } else if (n2 > n1 && n2 > n3) {
+    print("Maior ($n2)");
+    
+    if (n1 > n3) {
+       print("Valor do meio ($n1) \nMenor Valor ($n3)");
+      
+    } else if (n3 > n1) {
+      print("Valor do meio ($n3) \nMenor Valor ($n1)");
+      
+    } else {
+      print("São Iguais ($n3) e ($n1)");
+      
+    }
+    
+  } else if (n3 > n1 && n3 > n2) {
+    print("Maior ($n3)");
+    
+    if (n2 > n1) {
+       print("Valor do meio ($n2) \nMenor Valor ($n1)");
+      
+    } else if (n1 > n2) {
+      print("Valor do meio ($n1) \nMenor Valor ($n2)");
+      
+    } else {
+      print("São Iguais ($n2) e ($n1)");
+      
+    }
+    
+  } else {
+    print("São Iguais ($n1), ($n2), ($n3)");
+    
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 2.5
+
+void main() {
+  
+  int n1 = 3;
+  int n2 = 2;
+  int n3 = 1;
+  
+  int maior;
+  int doMeio;
+  int menor;
+  
+  if (n1 > n2 && n1 > n3) {
+     maior =  n1;
+    
+    if (n2 > n3) {
+      doMeio = n2;
+      menor = n3;
+      print(" $menor \n $doMeio \n $maior");
+      
+    } else if (n3 > n2) {
+      doMeio = n3;
+      menor = n2;
+      print(" $menor \n $doMeio \n $maior");
+      
+    } else {
+      print("São Iguais ($n3) e ($n2)");
+      
+    }
+    
+  } else if (n2 > n1 && n2 > n3) {
+    maior = n2;
+    
+    if (n1 > n3) {
+      doMeio = n1;
+      menor = n3;
+      print(" $menor \n $doMeio \n $maior");
+      
+    } else if (n3 > n1) {
+      doMeio = n3;
+      menor = n1;
+      print(" $menor \n $doMeio \n $maior");
+      
+    } else {
+      print("São Iguais ($n3) e ($n1)");
+      
+    }
+    
+  } else if (n3 > n1 && n3 > n2) {
+    maior = n3;
+    
+    if (n2 > n1) {
+      doMeio = n2;
+      menor = n1;
+      print(" $menor \n $doMeio \n $maior");
+      
+    } else if (n1 > n2) {
+      doMeio = n1;
+      menor = n2;
+      print(" $menor \n $doMeio \n $maior");
+      
+    } else {
+      print("São Iguais ($n2) e ($n1)");
+      
+    }
+    
+  } else {
+    print("São Iguais ($n1), ($n2), ($n3)");
+    
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 3
+
+void main() {
+  
+  String sexo = "M";
+  double altura = 1.45;
+  double resultado = 0;
+  
+  if (sexo == "F") {
+    resultado = (altura * 62.1) - 44.7;
+    print(resultado);
+    
+  } else {
+    resultado = (altura * 72.7) - 58;
+    print(resultado);
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 4
+
+void main() {
+  
+  int l1 = 10;
+  int l2 = 1;
+  int l3 = 0;
+  
+  if ( l1 == l2 && l2 == l3) {
+    print("Equilatero");
+    
+  } else if (l1 != l2 && l1 != l3) {
+    print("Escaleno");
+    
+  } else  {
+    print("Isosceles");
+    
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 5
+
+void main() {
+ 
+  String opcao = "C";
+  
+  switch (opcao) {
+    case "C":
+      print("Cadastrar");
+      break;
+    case "R":
+      print("Buscar");
+      break;
+    case "U":
+      print("Alterar");
+      break;
+    case "D":
+      print("Excluir");
+      break;
+    case "0":
+      print("Sair");
+      break;
+      
+    default:
+      print("OPÇÃO INVALIDA");
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 6
+
+void main() {
+  
+ /*6. Escreva um algoritmo que determine o preço com desconto para entradas de cinema. Mostre a categoria, o desconto e o valor final. Desconto não cumulativo.*/
+  String categoria = "Usuario";
+  String dia = "Quarta";
+  double desconto = 0;
+  num valorFinal = 0;
+  
+  if (categoria == "Estudante") {
+    desconto  = (25 * 0.5);
+    valorFinal = 25 - desconto;
+    
+  } else if (categoria == "Aposentados") {
+    desconto  = (25 * 0.3);
+    valorFinal = 25 - desconto;
+    
+    if(dia == "Quarta") {
+      desconto  = (25 * 0.5);
+      valorFinal = 25 - desconto;
+    }
+    
+  } else {
+    valorFinal = 25 - desconto;
+    
+    if(dia == "Quarta") {
+      desconto  = (25 * 0.5);
+      valorFinal = 25 - desconto;
+    }
+  }
+  
+  print(" $categoria \n Desconto: R\$$desconto \n Valor Final: R\$$valorFinal \n Dia: $dia");
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 7
+
+void main() {
+ /*7. Escreva um algoritmo que receba um valor e mostre todos os números de 1 até o valor informado.*/ 
+  int valor = 5;
+  
+  for (int i = 1; i <= valor; i++ ) {
+    print(i);
+  }
+ 
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 8
+
+void main() {
+  
+ /*8. Escreva um algoritmo que imprima os números de 100 até 300, de 10 em 10.*/ 
+  int valor = 300;
+  
+  for (int i = 100; i <= valor ; i +=  10 ) {
+    print(i);
+  }
+ 
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 9
+
+void main() {
+  
+ /*9.  Escreva um algoritmo que mostre os números pares menores que 50.*/ 
+  int valor = 1;
+  
+  for (int i = 49; i >= valor ; i-- ) {
+    if (i % 2 == 0) {
+      print(i);
+    }
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 10
+
+void main() {
+  
+ /* Escreva um algoritmo que receba um número e exiba na tela o dobro do número, apenas se ele for múltiplo de 5.*/ 
+  int valor = 1;
+  
+  if (valor % 5 == 0) {
+    print("Valor: $valor");
+    valor = (valor * 2);
+    print("Valor X 2 = $valor");
+    
+  } else {
+    print("$valor Não é Um Multiplo de 5");
+    
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 11
+
+void main() {
+  
+ /* 11. Escreva um algoritmo que receba um valor e mostre todos os números ímpares de 1 até o número informado.*/ 
+  int valor = 50;
+  
+  for (int i = 0; i <= valor; i++) {
+    if (i % 2 == 1) {
+      print(i);
+    }
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 12
+
+void main() {
+  
+ /*  Escreva um algoritmo que apresente o quadrado de todos os números ímpares.*/ 
+  int valor = 199;
+  int valorQuadrado = 0;
+  
+  for (int i = 0; i <= valor; i++) {
+    
+    if (i % 2 == 1) {
+      
+      valorQuadrado = i * i;
+      print("$i\² =  $valorQuadrado");
+      
+    }
+  }
+}
+
+==============================================================================================
+==============================================================================================
+EXERCICIO 13
+
+void main() {
+  
+ /*  [Extra] Escreva um algoritmo que receba uma palavra e mostre o tamanho da palavra.*/ 
+  String palavra = "amv";
+  int quantLetras = 0;
+  
+  quantLetras = palavra.length;
+  
+  print("A palavra: $palavra\npossui $quantLetras Letras");
+}

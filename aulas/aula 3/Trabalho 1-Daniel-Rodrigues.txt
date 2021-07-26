@@ -1,0 +1,202 @@
+EXERCICIO 1
+
+void main() {
+
+  String nome;
+  String sobrenome;
+  int idade;
+  double peso;
+  
+  nome = "daniel";
+  sobrenome = "rodrigues";
+  idade = 20;
+  peso = 52.23;
+  
+   print("\n Nome: "+ nome +"\n Sobrenome: "+sobrenome+ "\n Idade: $idade" + "\n Peso: $peso");
+  
+}
+
+
+
+==========================================================================================================================
+==========================================================================================================================
+
+EXERCICIO 2
+
+void main() {
+ 
+  num n1 = 39;
+  num n2 = 10;
+  
+  num total = n1 + n2;
+  
+  print("$n1 + $n2 = $total");
+  
+}
+
+
+==========================================================================================================================
+==========================================================================================================================
+
+EXERCICIO 3
+
+void main() {
+ 
+  double n1 = 10;
+  double n2 = 8;
+  double n3 = 3;
+  
+  num media = (n1 + n2 + n3) / 3;
+  
+  print("Nota 1: $n1 \nNota 2: $n2 \nNota 3: $n3 \n\nMedia: $media");
+  
+}
+
+
+==========================================================================================================================
+==========================================================================================================================
+
+EXERCICIO 4
+
+void main() {
+ 
+  double preco = 500;
+  
+  num total = preco - (preco * 0.10);
+  num desconto = preco * 0.10;
+  
+  print("Valor; $preco \nDesconto: $desconto \nTotal com Desconto: $total");
+  
+}
+
+==========================================================================================================================
+==========================================================================================================================
+
+EXERCICIO 5
+
+void main() {
+ 
+  double preco = 1000;
+  int percentDesconto = 50;
+  
+  num total = preco - (preco / 100) * percentDesconto;
+  num desconto = (preco / 100) * percentDesconto;
+  
+  print("Valor; $preco \nDesconto: $percentDesconto%  \nDesconto: $desconto \nTotal com Desconto: $total");
+  
+}
+
+==========================================================================================================================
+==========================================================================================================================
+
+EXERCICIO 6
+
+void main() {
+ 
+  num a = 10;
+  num b  = 5;
+  double c = 5.333333333333333333;
+  
+  print("A: $a \nB: $b \n====================");
+  num troca = b;
+  
+  b = a;
+  a = troca;
+  
+  
+  print("A: $a \nB: $b");
+  //toStringasFixed(2)
+}
+==========================================================================================================================
+==========================================================================================================================
+
+EXERCICIO 7
+
+void main() {
+ 
+  int totalParcelas = 23;
+  int quantParcelasPagas = 20;
+  double valorParcela = 200;
+  
+  num saldoDevedor = (totalParcelas - quantParcelasPagas) * valorParcela;
+  
+  print("Parcelas: $totalParcelas \nValor Parcela: $valorParcela \nParcelas Pagas: $quantParcelasPagas \n\nSaldo Devedor: $saldoDevedor");
+  
+}
+
+==========================================================================================================================
+==========================================================================================================================
+
+EXERCICIO 8
+
+void main() {
+ 
+  int fruta = 3;
+  int cremoso = 3;
+  int recheado = 3;
+  
+  num total = (fruta * 2.50) + (cremoso * 3.50) + (recheado * 4.50);
+  
+  double totalCremoso = (cremoso * 3.50);
+  double totalFruta = (fruta * 2.50);
+  double totalRecheado = (recheado * 4.50);
+  
+  print("\nFruta: $totalFruta \nCremoso: $totalCremoso \nRecheado: $totalRecheado \n\nTotal: $total");
+  
+}
+
+==========================================================================================================================
+==========================================================================================================================
+
+EXERCICIO 9
+
+/*
+ * 9. (Extra) Escreva um algoritmo que receba 3 valores e mostre os valores em ordem crescente.
+
+
+*/
+void main() {
+ 
+  int n1 = 1;
+  int n2 = 2;
+  int n3 = 3;
+  
+  if(n1 <= n2 && n1 <= n3){
+    print(n1);
+    
+    if(n2 <= n3){
+      print(n2);
+      print(n3);
+    } else {
+      print(n3);
+      print(n2);
+    }
+  } else if(n2 <= n1 && n2 <= n3){
+    print(n2);
+    
+    if(n1 <= n3){
+      print(n1);
+      print(n3);
+    } else {
+      print(n3);
+      print(n1);
+    }
+  } else if(n3 <= n1 && n3 <= n2){
+    print(n3);
+    
+    if(n2 <= n1){
+      print(n2);
+      print(n1);
+    } else {
+      print(n1);
+      print(n2);
+    }
+  } 
+     
+}
+
+==========================================================================================================================
+==========================================================================================================================
+
+EXERCICIO 10
+

@@ -1,0 +1,49 @@
+void main() {
+  num n1 = 5;
+  num n2 = 4.6;
+  String operacao = "Subtrair";
+  num resultado = 0;
+
+  Calculadora calc = new Calculadora();
+
+  switch (operacao) {
+    case "Somar":
+      resultado = calc.somar(n1, n2);
+      break;
+
+    case "Subtrair":
+      resultado = calc.subtrair(n1, n2);
+      break;
+
+    case "Multiplicar":
+      resultado = calc.multiplicar(n1, n2);
+      break;
+
+    case "Dividir":
+      resultado = calc.dividir(n1, n2);
+      break;
+
+    default:
+      print("opção invalida");
+  }
+
+  print("${resultado.toStringAsFixed(2)}");
+}
+
+class Calculadora {
+  num somar(num valor1, num valor2) {
+    return valor1 + valor2;
+  }
+
+  num subtrair(num valor1, num valor2) {
+    return valor1 - valor2;
+  }
+
+  num dividir(num valor1, num valor2) {
+    return valor1 / valor2;
+  }
+
+  num multiplicar(num valor1, num valor2) {
+    return valor1 * valor2;
+  }
+}

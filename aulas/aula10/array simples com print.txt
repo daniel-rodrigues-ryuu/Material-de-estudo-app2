@@ -1,0 +1,51 @@
+void main() {
+  
+  //Cria um array (Vazio)
+  
+  var a = [];
+  
+  //adicionando valores
+  
+  a.add(5);
+  a.add(3);
+  
+  //mostra o conteudo
+  
+  print(a[1]);
+  
+}
+============================================
+adicionando por conta propria
+void main() {
+  
+  //Cria um array (Vazio)
+  
+  var b = ["daniel","rosrigues", 19, 1.65, 60 ];
+  
+ print(b);
+  
+}
+
+=====================================================
+metods  array
+void main() {
+  
+  //Cria um array (Vazio)
+  
+  var b = ["ok", 3, 6, 7];
+  
+  print("Array b: $b" );
+  
+  //// mostrar o elemento na primeira posição
+  
+  print("b.first (Primeiro elemento): ${b.first}");
+  
+  //mosta o valor na ultima posição
+  
+  print("b.last (ultimo elemento) ${b.last}");
+  
+  //mostra o tamanho
+  print("Tamanho de b: ${b.length}");
+  
+  print(b.isEmpty);
+}

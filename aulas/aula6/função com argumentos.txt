@@ -1,0 +1,11 @@
+void main() {
+
+  int resultado = somar(5, 3);
+  
+  print("Resultado $resultado");
+}
+
+int somar(int valor1, int valor2) {
+  
+  return valor1 + valor2;
+}
